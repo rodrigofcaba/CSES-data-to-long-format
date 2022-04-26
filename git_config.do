@@ -3,7 +3,7 @@
 args repositoryName
 
 cap cd "C:/Users/Rodrigo/Desktop/`repositoryName'" 
-! echo # github-tutorial  >> README.md
+! echo # `repositoryName'  >> README.md
 ! git init
 ! git add README.md
 ! git commit -m "initial commit, only README"
